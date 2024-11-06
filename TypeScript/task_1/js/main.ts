@@ -1,6 +1,6 @@
 interface Teacher {
-	firstName: string;
-	lastName: string;
+	readonly firstName: string;
+	readonly lastName: string;
 	fullTimeEmployee: boolean;
 	yearsOfExperience?: number;
 	location: string;
@@ -14,5 +14,5 @@ const teacher3: Teacher = {
 	location: 'London',
 	contract: false,
 };
-  
+
 console.log(teacher3);
