@@ -1,0 +1,7 @@
+task_*/node_modules
+task_*/dist
+task_*/.eslintrc.js
+task_*/package.json
+task_*/package-lock.json
+task_*/tsconfig.json
+task_*/webpack.config.js
